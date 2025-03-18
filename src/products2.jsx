@@ -28,6 +28,10 @@ import Relaxed from './assets/Relaxed.jpg'
 import Phone from './assets/Phone.jpg'
 import Face from './assets/Face.png'
 import Gun from './assets/Gun.png'
+import Combo from './assets/Combo.jpg'
+import PCcard from './assets/PCcard.jpg'
+import Happy from './assets/Happy.jpg'
+import Nameplate from './assets/Nameplate.jpg'
 
 const products = [
   {
@@ -100,7 +104,7 @@ const products = [
       name: 'Happy Pot Small',
       href: '#',
       price: '150',
-      imageSrc: 'https://tailwindcss.com/plus-assets/img/ecommerce-images/category-page-04-image-card-02.jpg',
+      imageSrc: Happy,
       imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
     },
 
@@ -109,7 +113,7 @@ const products = [
       name: 'Happy Pot Large',
       href: '#',
       price: '250',
-      imageSrc: 'https://tailwindcss.com/plus-assets/img/ecommerce-images/category-page-04-image-card-04.jpg',
+      imageSrc: Happy,
       imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
     },
     {
@@ -141,7 +145,7 @@ const products = [
         name: 'PC Card Holder',
         href: '#',
         price: '200',
-        imageSrc: 'https://tailwindcss.com/plus-assets/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        imageSrc: PCcard,
         imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
       },
       {
@@ -149,7 +153,7 @@ const products = [
         name: 'Nameplate',
         href: '#',
         price: '150',
-        imageSrc: 'https://tailwindcss.com/plus-assets/img/ecommerce-images/category-page-04-image-card-01.jpg',
+        imageSrc: Nameplate,
         imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
       },
       {
@@ -181,7 +185,7 @@ const products = [
         name: 'Corporate Box',
         href: '#',
         price: '1000',
-        imageSrc: 'https://tailwindcss.com/plus-assets/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        imageSrc: Combo,
         imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
       },
     // More products...
