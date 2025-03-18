@@ -25,6 +25,9 @@ import Moon from './assets/Moon.jpg';
 import Heart from './assets/Heart.jpg';
 import Corporate from './assets/Corporate.png'
 import Relaxed from './assets/Relaxed.jpg'
+import Phone from './assets/Phone.jpg'
+import Face from './assets/Face.png'
+import Gun from './assets/Gun.png'
 
 const products = [
   {
@@ -122,7 +125,7 @@ const products = [
         name: 'Phone Stand',
         href: '#',
         price: '150',
-        imageSrc: 'https://tailwindcss.com/plus-assets/img/ecommerce-images/category-page-04-image-card-02.jpg',
+        imageSrc: Phone,
         imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
       },
       {
@@ -154,7 +157,7 @@ const products = [
         name: 'Gun',
         href: '#',
         price: '350',
-        imageSrc: 'https://tailwindcss.com/plus-assets/img/ecommerce-images/category-page-04-image-card-02.jpg',
+        imageSrc: Gun,
         imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
       },
       {
@@ -162,7 +165,7 @@ const products = [
         name: 'Custom Miniatures',
         href: '#',
         price: '400',
-        imageSrc: 'https://tailwindcss.com/plus-assets/img/ecommerce-images/category-page-04-image-card-03.jpg',
+        imageSrc: Face,
         imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
       },
       {
