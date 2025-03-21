@@ -70,7 +70,7 @@ const products = [
       id: 5,
       name: 'Trinket Tray',
       href: '#',
-      price: '200',
+      price: '250',
       imageSrc: Trinket,
       imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
     },
