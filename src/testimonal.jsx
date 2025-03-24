@@ -12,16 +12,16 @@ const Testimonials = () => {
       avatar: female
     },
     {
-      quote: "I ordered a mini gun and it looks quite real. No one can tell the difference.",
-      name: "Himmath",
+      quote: "I ordered a mini gun and it looks quite real. No one can tell the difference. The quality of the product is also fabulous.",
+      name: "Karanveer Singh Sra",
       handle: "",
       avatar: male
     },
     {
       quote: "I got miniatures from them of my parents. Those miniatures were very detailed and affordable too while having superior quality and were tough.",
-      name: "Aisha Johnson",
+      name: "Himmath",
       handle: "",
-      avatar: female
+      avatar: male
     }
   ];
 

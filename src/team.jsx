@@ -5,7 +5,8 @@ import Parneet from './assets/Parneet.jpg';
 import Sankalp from './assets/Sankalp.jpg';
 import Harshit from './assets/Harshit.jpeg';
 import Mehul from './assets/Mehul.jpg';
-import Kuvam from './assets/Kuvam.jpg'
+import Kuvam from './assets/Kuvam.jpg';
+import Vrinda from './assets/Vrinda.png'
 
 const Team = () => {
   // Sample data for team members with 3 additional members
@@ -25,7 +26,7 @@ const Team = () => {
     {
       name: "Vrinda Sharma",
       role: "CEO",
-      image: "https://www.tailwindtap.com/assets/components/team-component/expert-team/founder.jpg",
+      image: Vrinda,
       profile: "https://www.linkedin.com/in/vrinda-sharma-127b22291"
     },
     {
