@@ -15,7 +15,7 @@ function Home() {
        <HeroSection></HeroSection>
        <FeatureCards></FeatureCards>
        <TeamComponent></TeamComponent>
-       <Team></Team>
+       {/* <Team></Team> */}
        <Bestseller></Bestseller>
        <CustomerStats></CustomerStats>
        <Testimonials></Testimonials>

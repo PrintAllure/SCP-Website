@@ -3,7 +3,7 @@ import pic from './assets/FullSizeRender.jpg';
 
 const TeamComponent = () => {
   return (
-    <div className="w-full bg-blue-50 p-6 rounded-md">
+    <div className="w-full h-full bg-blue-50 p-6 rounded-md">
       {/* Team Picture Section */}
       <h1 className="text-3xl font-bold text-black-800 mt-10 mb-10">About Us</h1>
       <div className="w-4/5 mx-auto mb-8 bg-blue-300 p-8 rounded-md flex items-center justify-center">

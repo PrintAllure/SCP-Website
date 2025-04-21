@@ -160,7 +160,7 @@ const products = [
         id: 18,
         name: 'Gun',
         href: '#',
-        price: '350',
+        price: '400',
         imageSrc: Gun,
         imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
       },

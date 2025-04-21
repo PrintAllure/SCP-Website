@@ -1,19 +1,23 @@
 import React from "react"
+import Face from './assets/Face.png'
+import Relaxed from './assets/Relaxed.jpg'
+import Combo from './assets/Combo.jpg'
+import Gun from './assets/Gun.png'
 const products = [
     {
       id: 1,
       name: 'Miniatures',
       href: '#',
       price: '400(Tend to change with the product)',
-      imageSrc: 'https://tailwindcss.com/plus-assets/img/ecommerce-images/category-page-04-image-card-01.jpg',
+      imageSrc: Face,
       imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
     },
     {
       id: 2,
-      name: 'Relaxed Flower Pots Medium-*+',
+      name: 'Relaxed Flower Pots Large',
       href: '#',
       price: '250',
-      imageSrc: 'https://tailwindcss.com/plus-assets/img/ecommerce-images/category-page-04-image-card-02.jpg',
+      imageSrc: Relaxed,
       imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
     },
     {
@@ -21,15 +25,15 @@ const products = [
       name: 'Corporate Box',
       href: '#',
       price: '1000',
-      imageSrc: 'https://tailwindcss.com/plus-assets/img/ecommerce-images/category-page-04-image-card-03.jpg',
+      imageSrc: Combo,
       imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
     },
     {
       id: 4,
       name: 'Mini Gun',
       href: '#',
-      price: '350',
-      imageSrc: 'https://tailwindcss.com/plus-assets/img/ecommerce-images/category-page-04-image-card-04.jpg',
+      price: '400',
+      imageSrc: Gun,
       imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
     },
     // More products...
@@ -39,7 +43,7 @@ const products = [
         <div className="bg-white">
           {/* <br /><br /> */}
           
-          <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8 -mt-30">
+          <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8 ">
           <p className="text-2xl font-bold text-left">Our Best Sellers</p> <br />
             <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
               {products.map((product) => (
